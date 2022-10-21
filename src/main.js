@@ -37,5 +37,5 @@ console.log(dom.previous(dom.find('#s2')[0]))
 
 const t = dom.find('#travel')[0]
 dom.each(dom.children(t), (n) => { dom.style(n, 'color', 'red') })
-console.log(dom.index(s2))
+console.log(dom.index(t2))
 
